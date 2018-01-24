@@ -22,9 +22,11 @@ var range_from_1_to_100 = 0...100
 for index in range_from_1_to_100 {
     if index >= 30 && index <= 40 {
         print("# \(index) Viva Swift!!!")
-    } else if index % 5 == 0 {
+    }
+    if index % 5 == 0 {
         print("# \(index ) Bingo!!!")
-    } else if index % 2 == 0 {
+    }
+    if index % 2 == 0 {
         print("# \(index) par!!!")
     } else if index % 2 != 0 {
         print("# \(index ) impar!!!")
